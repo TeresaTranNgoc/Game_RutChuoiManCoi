@@ -50,7 +50,7 @@ p {
 #frame {
     position: absolute;
     left: 100px;
-    top: 70px;
+    top: 50px;
     width: 500px;
     height: 850px;
     /*background-image: url("../images/KHUNG1.png");*/
@@ -60,7 +60,7 @@ p {
 #pic_box {
     position: relative;
     left: 91px;
-    top: 84px;
+    top: 94px;
     width: 367px;
     height: 731px;
     z-index: 2;
