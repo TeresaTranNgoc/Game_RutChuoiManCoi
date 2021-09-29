@@ -5,17 +5,18 @@ body{
 p {
     color: yellow;
     font-family: Tahoma, Verdana, "Adobe Arabic";
-    font-size: 15px;
+    font-size: 20px;
     font-weight: bold;
-}
-#text_top {
-    position: relative;
 }
 #top {
     position: absolute;
     left: 191px;
     top: 15px;
     z-index: 4;
+    text-align: center;
+}
+.center {
+    text-align: center;
 }
 #bottom {
     position: absolute;
@@ -23,11 +24,21 @@ p {
     top: 840px;
 
 }
+#huongdan {
+    position: absolute;
+    left: 15px;
+    top: 860px;
+
+}
 #container {
     position: absolute;
     left: 0;
     top: 0;
     z-index: 0;
+    max-width: 700px;
+    /*margin-top: 10px;*/
+    margin-left: auto;
+    margin-right: auto;
 }
 .lingning {
     display: none;
@@ -72,4 +83,32 @@ p {
 }
 #mouth {
     height: 260px;
+}
+.padding>h2 {
+    padding-top: 870px;
+}
+.padding {
+    padding-top: 28px;
+    padding-bottom: 15px;
+}
+.footer h2 {
+    font-size: 24px;
+    font-weight: 400;
+    margin: 10px 0;
+}
+.third {
+    /*float: left;*/
+    width: 33.2%;
+}
+.third >p{
+    margin: 0;
+    font-size: 12px;
+    text-align: center;
+    color: black;
+}
+.padding >p{
+    margin: 0;
+    font-size: 16px;
+    text-align: center;
+    color: black;
 }

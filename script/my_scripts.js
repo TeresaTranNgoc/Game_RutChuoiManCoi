@@ -1,8 +1,6 @@
 $(document).ready(function (){
     let headclix = 0, eyeclix = 0, noseclix = 0, mouthclix = 0;
     lightning_one();
-    /*lightning_two();
-     lightning_three(); */
 
     $("#head").click(function (){
         if (headclix < 19) {
@@ -49,11 +47,3 @@ function lightning_one(){
     $("#container #lingning1").fadeIn(2000).fadeOut(500);
     setTimeout("lightning_one()", 4000);
 }
-/*function lightning_two(){
-   $("#container #lingning2").fadeIn("fast").fadeOut("fast");
-   setTimeout("lightning_two()", 5000);
-}
-function lightning_three(){
-   $("#container #lingning3").fadeIn("fast").fadeOut("fast");
-   setTimeout("lightning_three()", 7000);
-}*/
